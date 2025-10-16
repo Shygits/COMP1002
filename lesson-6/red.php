@@ -16,12 +16,17 @@
 			<h2>Building Blocks for Web Developers</h2>
 			<!-- Global site navigation -->
 			<nav>
-				<ul>
+	<ul>
+		<li><a href="index.php">Home</a></li>
+		<li><a href="red.php">Red Block</a></li>
+		<li><a href="blue.php">Blue Block</a></li>
+		<li><a href="yellow.php">Yellow Block</a></li>	
+	</ul>
+</nav>
 <!-- STEP 5a: We are now marooned on this page with no way back to the home page except the 'Back' button - build an LI and an A element above pointing back to the index.php page -->
 
 <!-- STEP 5b: Upload this changed file, and try it in the browser - then go back to index.php for STEP 6 -->
-				</ul>
-			</nav>
+				
 		</header>
 		<!-- Page-level main content -->
 		<main>
