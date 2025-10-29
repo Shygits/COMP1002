@@ -66,13 +66,13 @@ Anything else you can think of-->
   <fieldset>  
 <!--CUSTOMER INFORMATION-->
 <legend>Customer Details</legend>
-      <label for="name">Name:</label>
+      <label for="name">Name: </label>
       <input type="text" id="name" name="name" required />
 
-      <label for="email">Email:</label>
+      <label for="email">Email: </label>
       <input type="email" id="email" name="email" required />
 
-      <label for="phone">Phone Number:</label>
+      <label for="phone">Phone Number: </label>
       <input type="tel" id="phone" name="phone" />
    </fieldset>
     
@@ -87,6 +87,7 @@ Anything else you can think of-->
      <!--SIZE OF PIZZA(S)-->
      <label for="size">Size:</label>
      <select id="size" name="size">
+         <option value="0">-Select-</option>
          <option value="6">Small</option>
          <option value="8">Medium</option>
          <option value="12">Large</option>
@@ -98,14 +99,14 @@ Anything else you can think of-->
      <legend>Pizza Shape</legend>
      <label for="shape">Shape of Pizza(s):</label>
      <select id="shape" name="shape">
+         <option value="0">-Select-</option>
          <option value="round">Round</option>
          <option value="square">Square</option>
          <option value="hat">Party Hat</option>
      </select>
      
      <!--CRUST TYPE-->
-          <fieldset>
-     <legend>Crust Type</legend>
+    <fieldset>
      <p>Type of Crust</p>
      <input type="radio" id="thin" name="crust" value="thin" />
      <label for="thin">Thin Crust</label>
@@ -118,7 +119,7 @@ Anything else you can think of-->
      
      <input type="radio" id="stuffed" name="crust" value="stuffed" />
      <label for="thin">Stuffed Crust</label>     
-          </fieldset>
+    </fieldset>
     
     
     <!--SAUCE TYPE-->
@@ -139,7 +140,7 @@ Anything else you can think of-->
          <fieldset>
     <p>Toppings:</p>
      <input type="radio" id="pepperoni" name="toppings" value="pepperoni" />
-     <label for="thin">pepperoni</label>
+     <label for="thin">Pepperoni</label>
      
      <input type="radio" id="cheese" name="toppings" value="cheese" />
      <label for="thin">Cheese Blend</label>
@@ -174,6 +175,7 @@ Anything else you can think of-->
 </footer>
 </body>
 </html>
+
 
 
 
