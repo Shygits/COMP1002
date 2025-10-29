@@ -98,7 +98,7 @@ Anything else you can think of-->
     
     <!--SHAPE OF PIZZA(S)-->
      <fieldset>
-     <legend>Pizza Shape</legend>
+     <legend>Pizza Order Details</legend>
      <label for="shape">Shape of Pizza(s):</label>
      <select id="shape" name="shape">
          <option value="0">-Select-</option>
@@ -106,11 +106,11 @@ Anything else you can think of-->
          <option value="square">Square</option>
          <option value="hat">Party Hat</option>
      </select>
-     </fieldset>
+     
      
      <!--CRUST TYPE-->
-    <fieldset>
-     <p>Type of Crust</p>
+    
+     <p>Crust Type</p>
      <input type="radio" id="thin" name="crust" value="thin" />
      <label for="thin">Thin Crust</label>
      
@@ -122,11 +122,11 @@ Anything else you can think of-->
      
      <input type="radio" id="stuffed" name="crust" value="stuffed" />
      <label for="thin">Stuffed Crust</label>     
-    </fieldset>
+    
     
     
     <!--SAUCE TYPE-->
-         <fieldset>
+         
      <p>Type of Sauce:</p>
      <input type="radio" id="pizza" name="sauce" value="pizza" />
      <label for="pizza">Hearty Pizza Sauce</label>
@@ -136,11 +136,11 @@ Anything else you can think of-->
      
      <input type="radio" id="alfredo" name="sauce" value="alfredo" />
      <label for="alfredo">Alfredo Sauce</label>
-         </fieldset>
+         
   
          
     <!--TOPPINGS-->
-         <fieldset>
+         
     <p>Toppings:</p>
      <input type="checkbox" id="pepperoni" name="toppings" value="pepperoni" />
      <label for="pepperoni">Pepperoni</label>
@@ -162,12 +162,14 @@ Anything else you can think of-->
 
     <input type="checkbox" id="hothoney" name="toppings" value="hothoney" />
      <label for="hothoney">Hot Honey Drizzle</label>
-         </fieldset>   
+          
 </fieldset>
 
     <!--SPECIAL INSTRUCTION-->
-    
-
+    <fieldset>
+    <label for="instructions">Special Instructions:</label>
+    <textarea id="instructions" name="instructions" rows="4" cols="40" ></textarea>
+    </fieldset>
     
 <!--PICKUP OR DELIVERY or DINE IN-->
 <fieldset>
@@ -200,6 +202,7 @@ Anything else you can think of-->
 </footer>
 </body>
 </html>
+
 
 
 
