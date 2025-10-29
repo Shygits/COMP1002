@@ -129,13 +129,13 @@ Anything else you can think of-->
          <fieldset>
      <p>Type of Sauce:</p>
      <input type="radio" id="pizza" name="sauce" value="pizza" />
-     <label for="thin">Hearty Pizza Sauce</label>
+     <label for="pizza">Hearty Pizza Sauce</label>
      
      <input type="radio" id="bbq" name="sauce" value="bbq" />
-     <label for="thin">BBQ Sauce</label>
+     <label for="bbq">BBQ Sauce</label>
      
      <input type="radio" id="alfredo" name="sauce" value="alfredo" />
-     <label for="thin">Alfredo Sauce</label>
+     <label for="alfredo">Alfredo Sauce</label>
          </fieldset>
   
          
@@ -143,18 +143,26 @@ Anything else you can think of-->
          <fieldset>
     <p>Toppings:</p>
      <input type="radio" id="pepperoni" name="toppings" value="pepperoni" />
-     <label for="thin">Pepperoni</label>
+     <label for="pepperoni">Pepperoni</label>
      
-     <input type="radio" id="cheese" name="toppings" value="cheese" />
-     <label for="thin">Cheese Blend</label>
+     <input type="checkbox" id="cheese" name="toppings" value="cheese" />
+     <label for="cheese">Cheese Blend</label>
      
-     <input type="radio" id="vegetarian" name="toppings" value="thick" />
+     <input type="checkbox" id="vegetarian" name="toppings" value="thick" />
      <label for="thin">Vegetarian Blend</label>
      
-     <input type="radio" id="chicken" name="toppings" value="chicken" />
-     <label for="thin">Grilled Chicken</label>
-         </fieldset>
-        
+     <input type="checkbox" id="chicken" name="toppings" value="chicken" />
+     <label for="chicken">Grilled Chicken</label>
+
+    <input type="checkbox" id="olives" name="toppings" value="olives" />
+     <label for="olives">Olives</label>
+
+    <input type="checkbox" id="pineapple" name="toppings" value="pineapple" />
+     <label for="pineapple">Pineapple</label>
+
+    <input type="checkbox" id="hothoney" name="toppings" value="hothoney" />
+     <label for="hothoney">Hot Honey Drizzle</label>
+         </fieldset>   
 </fieldset>
 
     
@@ -172,8 +180,10 @@ Anything else you can think of-->
 
 
 <!--SUBMIT ORDER-->
+    <fieldset>
+<button type="reset">Reset</button>
 <button type="submit">Submit Order</button>
-    <button type="reset">Reset Form</button>button>
+</fieldset>
 </form>
 
 
@@ -187,6 +197,7 @@ Anything else you can think of-->
 </footer>
 </body>
 </html>
+
 
 
 
