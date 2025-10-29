@@ -59,7 +59,7 @@ Anything else you can think of-->
 <main>
     <!--Image for logo of tab and website (preferrably at the top)-->
         <img src="img/pizza-logo.jpg" alt="Saturn pizza above green writing outlined in blue saying Pizza Planet" width="300" />
-</main>
+
 <form action="">
 
     
@@ -158,29 +158,36 @@ Anything else you can think of-->
 </fieldset>
 
     
-<!--SUBMIT ORDER-->
-<fieldset>
-    
-</fieldset>
-
-
 <!--PICKUP OR DELIVERY or DINE IN-->
 <fieldset>
-    
+    <legend >Pickup Options</legend>
+    <select name="method" id="method">
+        <option value="dinein">Dine-In</option>
+        <option value="takeout">Take Out</option>
+        <option value="delivery">Delivery</option>
+    </select>
+<label for="date">Preferred Date:</label>
+    <input type="date" id="date" name="date" />
 </fieldset>
-    
+
+
+<!--SUBMIT ORDER-->
+<button type="submit">Submit Order</button>
+    <button type="reset">Reset Form</button>button>
+</form>
 
 
     
     
     
     
-    
-    <footer>
-    <p> 2025 HTMLs Pizza Planet. All Rights Reserved.</p>
+</main> 
+<footer>
+<p> 2025 HTMLs Pizza Planet. All Rights Reserved.</p>
 </footer>
 </body>
 </html>
+
 
 
 
