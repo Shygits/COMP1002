@@ -62,18 +62,56 @@ Anything else you can think of-->
 </main>
 <form action="">
 
-    <!--PIZZA ORDER-->
+    
+  <fieldset>  
+<!--CUSTOMER INFORMATION-->
+<legend>Customer Details</legend>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
 
-    <!--CUSTOMER INFORMATION-->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
 
-    <!--PICKUP OR DELIVERY-->
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" />
+   </fieldset>
+    
+<!--PIZZA ORDER-->
+ <fieldset>
+<legend>Pizza Order</legend>
 
-    <!--SUBMIT ORDER-->
+     <label for="quantity">Number of Pizzas</label>
+     <input type="number" id="quantity" name="quantity" min="1" max="10" value="1"/>
 
-<footer>
+     <label for="size">Size:</label>
+     <select id="size" name="size">
+         <option value="6">Small</option>
+         <option value="8">Medium</option>
+         <option value="12">Large</option>
+     </select>
+     
+ </fieldset>     
+
+
+<!--SUBMIT ORDER-->
+
+
+
+<!--PICKUP OR DELIVERY or DINE IN-->
+
+    
+
+
+    
+    
+    
+    
+    
+    <footer>
     <p> 2025 HTMLs Pizza Planet. All Rights Reserved.</p>
 </footer>
 </body>
 </html>
+
 
 
