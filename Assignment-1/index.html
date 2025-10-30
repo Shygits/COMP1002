@@ -19,7 +19,7 @@ x text areas
 x submit/reset buttons
 x …and any others that you feel make sense.
 x As you are building out your page, be sure to make regular commits with comments that document your progress toward completion - this part is very important. Push each commit up to your remote repository on GitHub.
-Include at least one <img /> element to insert a relevant illustration or photograph inside a paragraph in the page with an alt attribute. Ensure that the type of file is appropriate to the image (.jpg for a photograph, .png or .gif for an illustration/graphic).
+xInclude at least one <img /> element to insert a relevant illustration or photograph inside a paragraph in the page with an alt attribute. Ensure that the type of file is appropriate to the image (.jpg for a photograph, .png or .gif for an illustration/graphic).
 x Include helpful HTML comments to make the code more friendly and easy to maintain. Ensure that your code is also formatted appropriately.
 x Commit any and all changes to your local Git repository, then push the changes up to your remote repository on GitHub.
 TAKE IT FURTHER
@@ -187,14 +187,16 @@ Anything else you can think of-->
 </fieldset>
 
 
-<!--SUBMIT ORDER-->
+<!--RESET ORDER-->
     <fieldset>
 <button type="reset">Reset</button>
-<button type="submit">Submit Order</button>
+
 
         <!--Confirm order reference for java script: https://stackoverflow.com/questions/6515502/javascript-form-submit-confirm-or-cancel-submission-dialog-box--> 
         <form onsubmit="return confirmOrder()" action="">
-         <script>
+         <button type="submit">Submit Order</button>
+        </form>
+            <script>
              function confirmOrder(){
                  return confirm("Are you sure you would like to Submit this Order?");
              }
@@ -214,6 +216,7 @@ Anything else you can think of-->
 </footer>
 </body>
 </html>
+
 
 
 
