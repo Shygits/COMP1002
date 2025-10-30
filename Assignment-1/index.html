@@ -191,6 +191,15 @@ Anything else you can think of-->
     <fieldset>
 <button type="reset">Reset</button>
 <button type="submit">Submit Order</button>
+
+        <!--Confirm order reference for java script: https://stackoverflow.com/questions/6515502/javascript-form-submit-confirm-or-cancel-submission-dialog-box--> 
+        <form onsubmit="return confirmOrder()" action="">
+         <script>
+             function confirmOrder(){
+                 return confirm("Are you sure you would like to Submit this Order?");
+             }
+        </script>
+        
 </fieldset>
 </form>
 
@@ -205,6 +214,7 @@ Anything else you can think of-->
 </footer>
 </body>
 </html>
+
 
 
 
