@@ -40,7 +40,7 @@ Anything else you can think of-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset=""UTF-8">
+    <meta charset="UTF-8">
     <title> HTMLs Pizza Planet</title>
     <meta name="Pizza" content="Pizza Ordering Site">
     <link rel="shortcut icon" href="img/pizza-icon.jpg" type="image/jpeg">
@@ -53,8 +53,8 @@ Anything else you can think of-->
   <header>
    
     <!--ADD COLOUR TO TEXT,POSSIBLY FONT STYLE-->
-    <h1 style="text-align: center; color: #8B0000;">Welcome to HTMLs Pizza Planet</h1>
-    <h2 style="text-align: center; color:#228B22;"> Where the Pizza is Other Worldly!</h2>
+    <h1 style=color: #8B0000;">Welcome to HTMLs Pizza Planet</h1>
+    <h2 style=color: #228B22;">Where the Pizza is Other Worldly!</h2>
   </header>
 
 <main>
@@ -63,7 +63,7 @@ Anything else you can think of-->
  <img src="img/pizza-icon.jpg" alt="Saturn pizza above green writing outlined in blue saying Pizza Planet" height="200" width="200" style="position: absolute; top: 20px; right: 20px;"/>
     <img src="img/Veggie-Pizza.jpg" alt="2 Vegetarian Pizzas" height="300" width="600">
 
-<form action="confirm-order.php" method="get" on submit="return confirmOrder()">
+<form action="confirm-order.php" method="get" onsubmit="return confirmOrder()">
  <h3 style="color: #8B0000;">Start building your pizza Here.</h3>
   <fieldset>  
 
@@ -118,13 +118,13 @@ Anything else you can think of-->
      <label for="thin">Thin Crust</label>
      
      <input type="radio" id="regular" name="crust" value="regular" />
-     <label for="thin">Regular Crust</label>
+     <label for="regular">Regular Crust</label>
      
      <input type="radio" id="thick" name="crust" value="thick" />
-     <label for="thin">Thick Crust</label>
+     <label for="thick">Thick Crust</label>
      
      <input type="radio" id="stuffed" name="crust" value="stuffed" />
-     <label for="thin">Stuffed Crust</label>     
+     <label for="thick">Stuffed Crust</label>     
     
     
     
@@ -213,6 +213,7 @@ Anything else you can think of-->
 </footer>
 </body>
 </html>
+
 
 
 
