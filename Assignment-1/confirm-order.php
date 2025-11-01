@@ -23,7 +23,7 @@ ho<!DOCTYPE html>
 	$quantity = $_GET["quantity"];
 	$instructions = $_GET["instructions"];
 
-
+    echo '<ul>';
 	echo '<p>Thank you, ' .$fname .' '!</p>';
 	echo '<li>Shape: ' . $shape . '</li>';
 	echo '<li>Size: ' . $size . '</li>';
@@ -32,7 +32,7 @@ ho<!DOCTYPE html>
 	echo '<li>Toppings: ' . $toppings . '</li>';
 	echo '<li>Quantity: ' . $quantity . '</li>';
 	echo '<li>Instructions: ' . $instructions . '</li>';
-
+    echo '</ul>
     
  </body>
 
