@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ho<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset=""UTF-8">
@@ -25,10 +25,13 @@
 
 
 	echo '<p>Thank you, ' .$fname .' '!</p>';
-	foreach ($alert as $item) {
-   echo ('<li>'. $item.'</li>
-    }
-	echo('</ul>');
+	echo '<li>Shape: ' . $shape . '</li>';
+	echo '<li>Size: ' . $size . '</li>';
+	echo '<li>Crust: ' . $crust . '</li>';
+	echo '<li>Sauce: ' . $sauce . '</li>';
+	echo '<li>Toppings: ' . $toppings . '</li>';
+	echo '<li>Quantity: ' . $quantity . '</li>';
+	echo '<li>Instructions: ' . $instructions . '</li>';
 
     
  </body>
