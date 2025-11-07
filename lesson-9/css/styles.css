@@ -15,7 +15,7 @@ html {
 /* STEP 3: Add a base color to the HTML element */
 html {
 	background-color: linen;
-	color: darkgrey;
+	color: darkviolet;
 }
 /* STEP 4a: Try a variety of absolute CSS length/size units (mm, cm, in, pt, pc) to set the font-size on the HTML element */
 /*html {
@@ -45,7 +45,7 @@ h2 {
 }
 /* STEP 12: Transform the text of the h2 (none | capitalize | uppercase | lowercase | full-width) */
 h2 {
-
+font-variant: small-caps;
 }
 /* STEP 5: Line height for paragraphs (leading) - set line-height on the MAIN P elements - this can be a unitless setting (a factor) */
 main p{
@@ -57,8 +57,11 @@ main p {
 }
 /* STEP 6: Align text left, right, center and justify for paragraphs */
 main p {
-
+text-align: justify;
 }
 /* STEP 7: Modify bold and italics, by applying to strong and em - swap them around */
-
+em {
+	font-style: italic;
+	font-weight: bold;
+}
 
