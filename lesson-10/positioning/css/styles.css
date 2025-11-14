@@ -4,12 +4,14 @@
 "The position CSS property specifies how an element is positioned in a document. The top, right, bottom, and left properties determine the final location of positioned elements." (https://developer.mozilla.org/en-US/docs/Web/CSS/position)
 */
 
+
 /* STEP 1: Style the ASIDE element - change the background-color, and the width properties */
 aside {
 
 }
 
 /* STEP 2: Change the position property of the ASIDE element - static | relative | absolute | sticky - proceed to STEP 2a below */
+
 
 /* STEP 2a: Postion static - this is the default, and the element is within the 'flow' of the page content */
 aside {
@@ -36,6 +38,7 @@ aside {
 /* STEP 4: Positioning context - absolutely positioned elements are placed on the screen using the position of the next positioned ancestor. So… if a containing parent element is positioned (absolute or relative is set to any value at all), a positioned child will use the parent's position (top left corner, specifically) as a reference point. */
 
 /* STEP 4a: We are going to style the P element with the '?' inside it - comment out the above top, right, bottom, and left properties and values for the ASIDE, then position the ASIDE with absolute - place it 25px from the top, and 25px from the right of the document window (HTML element) */
+
 aside {
 
 }

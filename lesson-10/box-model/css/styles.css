@@ -1,30 +1,52 @@
+@charset "utf-8";
+/*Borderbox-sizing for more predictable inputs;*/
+html{
+  box-sizing: border-box;
+}
+/*{
+  box-sizing:
+}*/
+
 
 /* STEP 3: Set character encoding (must be first line of file) */
 /* STEP 4a: Set the border properties on the DIV#container - border-width, border-style, border-color */
 div#container {
-
+border-style: dashed; 
+border-color: orange;
+border-width: 5px 30px 20px;
 }
 /* STEP 4b: Control one of the four borders independently of the others - try border-top-style */
 
+
 /* STEP 4c: Apply shorthand to bottom border (border-bottom-width) using the clock rule (TRBL) */
+
 
 /* STEP 5a: Set padding values on the DIV#container element - set individual padding values, then use shorthand with the clock rule again (TRBL) */
 div#container {
+padding: 5%;
+padding-top: 5%;
+margin:  5% auto 5% auto; /*top and bottom at 5% of height if page, left and right is autofit*/
 
-  margin: 5% auto;
-
-}
 /* STEP 5b: Apply a background-image to the same element (controlling background-repeat, background-position, and background-size) */
+
 
 /* STEP 5c: Instead, apply the same background-image to the BODY, and apply a background-color to the DIV#container */
 body {
+background-color: pink;
+background-image: url("../images/stucco.jpg");
+font-size: 150%;
+/*background-repeat: no-repeat;
+background-position: 100px 200px;can also use center, percentages
+background-size: contain;/*can also use cover, covers whole background with image*/
 
-  font-size: 150%;
+}
 }
 
 /* STEP 6a: Control the width of the DIV#container with a fixed unit (px) */
 div#container {
-
+width: 600px;
+height: 500px;
+overflow: auto;
 }
 /* STEP 6b: Change the width to a relative unit of measure (%) */
 
@@ -36,7 +58,7 @@ div#container {
 
 /* STEP 8a: Change the display property of the H1 EM element to block, then to inline-block (default for EM is inline) */
 h1 em {
-
+display: block;
 }
 /* STEP 8b: Manipulate the visibility of the H1 EM element (visibility and display are different) */
 
