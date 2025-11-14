@@ -19,7 +19,7 @@ x text areas
 x submit/reset buttons
 x …and any others that you feel make sense.
 x As you are building out your page, be sure to make regular commits with comments that document your progress toward completion - this part is very important. Push each commit up to your remote repository on GitHub.
-Include at least one <img /> element to insert a relevant illustration or photograph inside a paragraph in the page with an alt attribute. Ensure that the type of file is appropriate to the image (.jpg for a photograph, .png or .gif for an illustration/graphic).
+xInclude at least one <img /> element to insert a relevant illustration or photograph inside a paragraph in the page with an alt attribute. Ensure that the type of file is appropriate to the image (.jpg for a photograph, .png or .gif for an illustration/graphic).
 x Include helpful HTML comments to make the code more friendly and easy to maintain. Ensure that your code is also formatted appropriately.
 x Commit any and all changes to your local Git repository, then push the changes up to your remote repository on GitHub.
 TAKE IT FURTHER
@@ -40,10 +40,10 @@ Anything else you can think of-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset=""UTF-8">
-    <title>Pizzas HTML Planet</title>
+    <meta charset="UTF-8">
+    <title> HTMLs Pizza Planet</title>
     <meta name="Pizza" content="Pizza Ordering Site">
-    <link rel="shortcut icon" href="img/pizza-icon" type="image/x-icon">
+    <link rel="shortcut icon" href="img/pizza-icon.jpg" type="image/jpeg">
     <link rel="stylesheet" href="css/styles.css" />
 
     
@@ -53,21 +53,22 @@ Anything else you can think of-->
   <header>
    
     <!--ADD COLOUR TO TEXT,POSSIBLY FONT STYLE-->
-    <h1 style="color: #8B0000;">Welcome to Pizzas HTMLs Planet</h1><h2 style="color:#228B22;"> Where the Pizza is Other Worldly!</h2>
-    <p style="color: #8B0000;">Start building your pizza Here.</p>
+    <h1 style="text-align: center; color: #8B0000;">Welcome to HTMLs Pizza Planet</h1> 
+    <h2 style="text-align: center; color: #228B22;">Where the Pizza is Other Worldly!</h2>
   </header>
 
 <main>
     
-<!--Image for logo of tab and website (preferrably at the top)-->
- <img src="img/pizza-icon.jpg" alt="Saturn pizza above green writing outlined in blue saying Pizza Planet" width="300" />
+<!--Image for logo of website (preferrably at the top)-->
+ <img src="img/pizza-icon.jpg" alt="Saturn pizza above green writing outlined in blue saying Pizza Planet" height="200" width="200" style="position: absolute; top: 20px; right: 20px;"/>
+    <img src="img/Veggie-Pizza.jpg" alt="2 Vegetarian Pizzas" height="300" width="600">
 
-<form action="">
-
+<form action="confirm-order.php" method="get" onsubmit="return confirmOrder()">
+ <h3 style="color: #8B0000;">Start building your pizza Here.</h3>
   <fieldset>  
 
 <!--CUSTOMER INFORMATION-->
-<legend>Customer Details</legend>
+<legend><strong>Customer Details</strong></legend>
       <label for="name">Name: </label>
       <input type="text" id="name" name="name" required />
 
@@ -80,7 +81,7 @@ Anything else you can think of-->
     
 <!--PIZZA ORDER FILL OUT-->
  <fieldset>
-<legend>Pizza Order</legend>
+<legend><strong>Pizza Order</strong></legend>
   
      <!--NUMBER OF PIZZAS-->
      <label for="quantity">Number of Pizzas</label>
@@ -100,7 +101,7 @@ Anything else you can think of-->
     
     <!--SHAPE OF PIZZA(S)-->
      <fieldset>
-     <legend>Pizza Order Details</legend>
+     <legend><strong>Pizza Order Details</strong></legend>
      <label for="shape">Shape of Pizza(s):</label>
      <select id="shape" name="shape">
          <option value="0">-Select-</option>
@@ -112,24 +113,24 @@ Anything else you can think of-->
      
      <!--CRUST TYPE-->
     
-     <p>Crust Type</p>
+     <p><em>Crust Type</em></p>
      <input type="radio" id="thin" name="crust" value="thin" />
      <label for="thin">Thin Crust</label>
      
      <input type="radio" id="regular" name="crust" value="regular" />
-     <label for="thin">Regular Crust</label>
+     <label for="regular">Regular Crust</label>
      
      <input type="radio" id="thick" name="crust" value="thick" />
-     <label for="thin">Thick Crust</label>
+     <label for="thick">Thick Crust</label>
      
      <input type="radio" id="stuffed" name="crust" value="stuffed" />
-     <label for="thin">Stuffed Crust</label>     
+     <label for="thick">Stuffed Crust</label>     
     
     
     
     <!--SAUCE TYPE-->
          
-     <p>Type of Sauce:</p>
+     <p><em>Type of Sauce:</em></p>
      <input type="radio" id="pizza" name="sauce" value="pizza" />
      <label for="pizza">Hearty Pizza Sauce</label>
      
@@ -143,7 +144,7 @@ Anything else you can think of-->
          
     <!--TOPPINGS-->
          
-    <p>Toppings:</p>
+    <p><em>Toppings:</em></p>
      <input type="checkbox" id="pepperoni" name="toppings" value="pepperoni" />
      <label for="pepperoni">Pepperoni</label>
      
@@ -169,27 +170,35 @@ Anything else you can think of-->
 
     <!--SPECIAL INSTRUCTION-->
     <fieldset>
-    <legend>Special Instructions</legend>
+    <legend><strong>Special Instructions</strong></legend>
     <textarea id="instructions" name="instructions" rows="4" cols="40" ></textarea>
     </fieldset>
     
 <!--PICKUP OR DELIVERY or DINE IN-->
 <fieldset>
-    <legend >Pickup Options</legend>
+    <legend ><strong>Pickup Options</strong></legend>
     <select name="method" id="method">
         <option value="dinein">Dine-In</option>
         <option value="takeout">Take Out</option>
         <option value="delivery">Delivery</option>
     </select>
-<label for="date">Preferred Date:</label>
+<label for="date"><em>Preferred Date:</em></label>
     <input type="date" id="date" name="date" />
 </fieldset>
 
 
-<!--SUBMIT ORDER-->
-    <fieldset>
-<button type="reset">Reset</button>
-<button type="submit">Submit Order</button>
+  <!--Confirm Order--> 
+             <fieldset>
+            <button type="reset" style="background-color: #228B22; color: darkred;">Reset</button>
+            <button type="submit" style="background-color: #8B0000; color: darkgreen;">Submit Order</button>
+             </fieldset>
+        </form>
+            <script>
+             function confirmOrder() {
+                 return confirm("Are you sure you would like to Submit this Order?");
+             }
+        </script>
+        
 </fieldset>
 </form>
 
@@ -200,10 +209,33 @@ Anything else you can think of-->
     
 </main> 
 <footer>
-<p> 2025 Pizzas HTML Planet. All Rights Reserved.</p>
+<p> 2025 HTMLs Pizza Planet. All Rights Reserved.</p>
 </footer>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
