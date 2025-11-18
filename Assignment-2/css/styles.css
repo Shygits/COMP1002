@@ -9,7 +9,26 @@ background-image: url("../images/BTTF30words.jpg");   background-size: cover;
 h1{
     font-size: 3em;
     color: #FFD700;
+    transform: skew(30deg);
+    text-align: left;
 }
+
+h2{
+
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+h5{
+
+}
+
 
 .tagline{
     font-style: italic;
