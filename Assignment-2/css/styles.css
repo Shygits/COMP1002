@@ -13,8 +13,20 @@ h1{
     text-align: left;
 }
 
-h2{
 
+h2{
+font-style: arial;
+font-size: 1.5em;
+color: #5252ff;
+text-align: right;
+}
+
+ul{
+font-style: Helvetica;
+font-size: 1.5em;
+color: #5252ff;
+text-align: right;
+line-height: 2px;
 }
 
 h3{
@@ -33,6 +45,9 @@ h5{
 .tagline{
     font-style: italic;
     font-size: 1.2em;
+    color: ;
+    text-align: ;
+
 }
 
 section{
@@ -40,4 +55,8 @@ section{
     width: 80%;
     padding: 10px;
     border-radius: 10px;
+}
+
+footer{
+
 }
