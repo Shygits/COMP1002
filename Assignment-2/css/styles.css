@@ -40,13 +40,24 @@ line-height: 2px;
   list-style-type: none;   
   padding: 0;              
   margin: 0;  
+  color: #8080ff;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
 .starring li {
   font-weight: bold;       
   margin-bottom: 0.5em;   
   font-size: 1.2em;        
-  text-align: right;      
+  text-align: right; 
+  display: flex;
+  align-items: flex-start;     
+}
+
+.cast-heading{
+    color: #8080ff;
+    font-size: 1.5em;
+    margin-top: o.2em;
 }
 
 h4{
@@ -60,21 +71,26 @@ h4 + li{
 }
 
 h5{
+    font-size: 20px;
+color: cyan; 
+}
+
+h5 + p{
+font-size: 20px;
+font-weight: bolder;
+}
+
+h6{
 transform: ;
 text-align: center;
 color: orange;
 line-height: 2px;
-font-size: 40px;
-}
-
-h6{
 font-size: 20px;
-color: #8080ff; 
 }
 
 h6 + p{
-font-size: 20px;
-font-weight: bolder;
+color:#FFD700;
+
 }
 
 section{
@@ -87,11 +103,12 @@ section{
 fluxcapacitor-image {
 width: 10%;
 max-width: 40px;
-height: 10px;
+height: 1px;
 }
 
 figcaption {
     color: #2424ff;
+    text-align: center;
 }
 small{
     color: #FFD700;
