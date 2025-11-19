@@ -63,12 +63,14 @@ section{
     border-radius: 10px;
 }
 
-image {
-
+fluxcapacitor-image {
+width: 50%;
+max-width: 400px;
+height: 10%;
 }
 
 figcaption {
-    color: ;
+    color: #2424ff;
 }
 small{
     color: #FFD700;
