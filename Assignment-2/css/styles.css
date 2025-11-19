@@ -7,18 +7,18 @@ background-image: url("../images/BTTF30words.jpg");   background-size: cover;
 }
 
 h1{
-    font-size: 3em;
-    color: #FFD700;
-    transform: skew(35deg);
-    text-align: left;
+transform: skew(30deg);
+text-align: left;
+color:#FFD700;
+line-height: 2px;
 }
 
 
 h2{
-font-style: arial;
-font-size: 1.5em;
-color: #5252ff;
-text-align: center;
+font-size: 3em;
+    color: #FFD700;
+    transform: skew(35deg);
+    text-align: left;
 }
 
 .starring {
@@ -36,19 +36,26 @@ text-align: center;
 
 
 h3{
-text-shadow: 5em;
-color: red;
-}
-
-h3 + p{
- text-align: left;
-}
-
-h4{
 transform: skew(30deg);
 text-align: left;
 color:#FFD700;
 line-height: 2px;
+}
+
+.tagline{
+    font-style: italic;
+    font-size: 1.2em;
+    color: orangered;
+    text-align: right;
+}
+
+
+h4 + p{
+ text-align: left;
+}
+
+h4{
+
 }
 
 h5{
@@ -58,12 +65,8 @@ color:#FFD700;
 line-height: 2px;
 }
 
+h6{
 
-.tagline{
-    font-style: italic;
-    font-size: 1.2em;
-    color: orangered;
-    text-align: right;
 }
 
 section{
