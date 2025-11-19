@@ -11,6 +11,13 @@ transform: skew(30deg);
 text-align: left;
 color:#FFD700;
 line-height: 2px;
+h1, h2, h3 {
+  border: 2px solid blue;   /* thickness and color */
+  padding: 10px;            /* space between text and border */
+  display: inline-block;    /* keeps border tight around text */
+  border-radius: 5px;       /* optional: rounded corners */
+}
+
 }
 
 
@@ -19,6 +26,13 @@ font-size: 3em;
     color: #FFD700;
     transform: skew(35deg);
     text-align: left;
+    h1, h2, h3 {
+  border: 2px solid blue;   /* thickness and color */
+  padding: 10px;            /* space between text and border */
+  display: inline-block;    /* keeps border tight around text */
+  border-radius: 5px;       /* optional: rounded corners */
+}
+
 }
 
 h3{
@@ -26,6 +40,13 @@ transform: skew(30deg);
 text-align: left;
 color:#FFD700;
 line-height: 2px;
+h1, h2, h3 {
+  border: 2px solid blue;   /* thickness and color */
+  padding: 10px;            /* space between text and border */
+  display: inline-block;    /* keeps border tight around text */
+  border-radius: 5px;       /* optional: rounded corners */
+}
+
 }
 
 .tagline{
@@ -107,6 +128,13 @@ height: auto;
 margin: 10px;
 }
 
+.delorean-img {
+width: 500px;
+display: block;
+height: auto;
+margin: 10px;
+}
+
 figcaption {
     color: silver;
     text-align: left;
@@ -114,4 +142,5 @@ figcaption {
 small{
     color: #FFD700;
     font-style: oblique;
+    font-size: 20px;
 }
