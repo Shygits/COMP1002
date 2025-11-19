@@ -89,7 +89,7 @@ font-size: 20px;
 }
 
 h6 + p{
-color:#FFD700;
+color: #A42821;
 
 }
 
@@ -100,15 +100,16 @@ section{
     border-radius: 10px;
 }
 
-fluxcapacitor-image {
-width: 10%;
-max-width: 40px;
-height: 1px;
+.flux-img {
+width: 150px;
+display: block;
+height: auto;
+margin: 10px;
 }
 
 figcaption {
-    color: #2424ff;
-    text-align: center;
+    color: silver;
+    text-align: left;
 }
 small{
     color: #FFD700;
