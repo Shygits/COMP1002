@@ -21,20 +21,6 @@ font-size: 3em;
     text-align: left;
 }
 
-.starring {
-  list-style-type: none;   
-  padding: 0;              
-  margin: 0;              
-}
-
-.starring li {
-  font-weight: bold;       
-  margin-bottom: 0.5em;   
-  font-size: 1.2em;        
-  text-align: center;      
-}
-
-
 h3{
 transform: skew(30deg);
 text-align: left;
@@ -49,24 +35,46 @@ line-height: 2px;
     text-align: right;
 }
 
+.starring {
+  text-align: right;            
+  list-style-type: none;   
+  padding: 0;              
+  margin: 0;  
+}
 
-h4 + p{
- text-align: left;
+.starring li {
+  font-weight: bold;       
+  margin-bottom: 0.5em;   
+  font-size: 1.2em;        
+  text-align: right;      
 }
 
 h4{
+text-align: left;
+color: #5757ff;
+}
 
+h4 + li{
+ text-align: left;
+ color: #5757ff;
 }
 
 h5{
-transform: skew(30deg);
-text-align: left;
-color:#FFD700;
+transform: ;
+text-align: center;
+color: orange;
 line-height: 2px;
+font-size: 40px;
 }
 
 h6{
+font-size: 20px;
+color: #8080ff; 
+}
 
+h6 + p{
+font-size: 20px;
+font-weight: bolder;
 }
 
 section{
@@ -77,9 +85,9 @@ section{
 }
 
 fluxcapacitor-image {
-width: 50%;
-max-width: 400px;
-height: 10%;
+width: 10%;
+max-width: 40px;
+height: 10px;
 }
 
 figcaption {
