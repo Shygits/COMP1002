@@ -35,43 +35,43 @@ text-shadow: 2px 2px 4px red;
 }
 
 .tagline{
-    font-style: italic;
+    font-style: oblique;
     font-size: 1.2em;
     color: orangered;
     text-align: right;
+    padding: 0;
+    transform: skew(-15deg);
 }
 
-.cast-header {
-  text-align: right;            
+.cast-header {   
+  text-align: right;         
   list-style-type: none;   
-  padding: 0;              
-  margin: 0;  
+  padding: 0;    
+  margin: 0;            
   color: #8080ff;
   font-weight: bold;
   font-size: 1.2em;
+  text-shadow: 2px 2px 4px #A42821;
 }
 
 .starring li {
   font-weight: bold;       
-  margin-bottom: 0.5em;   
+  margin-bottom: 0;   
   font-size: 1.2em;        
   text-align: right; 
   color: #8080ff;
   list-style-type: none;
+  text-shadow: 2px 2px 4px #A42821;
+
 
 }
 
-.cast-heading{
-    color: #8080ff;
-    font-size: 1.5em;
-    margin-top: o.2em;
-}
 
 h4{
 font-size:2em;
 text-align: left;
 color: #5757ff;
-text-shadow: 2px 2px 4px red;
+text-shadow: 2px 2px 4px #A42821;
 }
 
 h4 + li{
@@ -79,22 +79,48 @@ h4 + li{
  color: #5757ff;
 }
 
+.image-row {
+  display: flex;
+  justify-content: left;     
+  gap: 20px;                   
+  margin: 1cm 0;
+  width: 10px;
+  height: auto;
+  object-fit: contain;
+}
+
+figcaption {
+    color: silver;
+    text-align: left;
+}
+
+.bottom-row {
+width: 50px;
+display: block;
+height: auto;
+margin: 10px;
+}
+
 h5{
-text-shadow: 2px 2px 4px red;
+text-shadow: 2px 2px 4px #A42821;
 font-size: 20px;
 color: cyan; 
 text-align: left;
 }
 
 h5 + p{
-font-size: 20px;
+font-size: 15px;
 font-weight: bolder;
 text-align: left;
 }
 
+a{
+color: yellow;
+
+}
+
 h6{
-text-shadow: 2px 2px 4px red;
-transform: ;
+text-shadow: 2px 2px 4px #A42821;
 text-align: center;
 color: orange;
 line-height: 2px;
@@ -102,10 +128,10 @@ font-size: 30px;
 }
 
 h6 + p{
-color: #A42821;
+color: yellow;
 font-size:15px;
 font-weight: bold;
-text-shadow: 2px 2px 2px yellow;
+text-shadow: 2px 1.5px 2px #A42821;
 
 
 }
@@ -117,24 +143,6 @@ section{
     border-radius: 10px;
 }
 
-image-row {
-  display: flex;
-  justify-content: center;     
-  gap: 20px;                   
-  margin: 20px 0;
-}
-
-.bottom-row {
-width: 500px;
-display: block;
-height: auto;
-margin: 10px;
-}
-
-figcaption {
-    color: silver;
-    text-align: left;
-}
 
 small{
     color: #FFD700;
