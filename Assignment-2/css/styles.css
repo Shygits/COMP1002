@@ -47,7 +47,7 @@ text-shadow: 2px 2px 4px red;
 }
 
 .cast-header {   
-  text-align: right;         
+  text-align: left;         
   list-style-type: none;   
   padding: 0;    
   margin: 0;            
@@ -61,7 +61,7 @@ text-shadow: 2px 2px 4px red;
   font-weight: bold;       
   margin-bottom: 0;   
   font-size: 1.2em;        
-  text-align: right; 
+  text-align: left; 
   color: #8080ff;
   list-style-type: none;
   text-shadow: 2px 2px 4px #A42821;
@@ -82,7 +82,7 @@ h4 + li{
  color: #5757ff;
 }
 
-.image-row {
+.image {
   display: flex;
   justify-content: left;     
   gap: 20px;                   
@@ -90,6 +90,7 @@ h4 + li{
   width: 10px;
   height: 150px;
   object-fit: contain;
+
 }
 
 figcaption {
@@ -97,12 +98,6 @@ figcaption {
     text-align: left;
 }
 
-.bottom-row {
-width: 100px;
-display: block;
-height: auto;
-margin: 10px;
-}
 
 h5{
 text-shadow: 2px 2px 4px #A42821;
