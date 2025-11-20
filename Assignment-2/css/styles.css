@@ -83,19 +83,23 @@ h4 + li{
 }
 
 .image {
-  display: flex;
-  justify-content: left;     
-  gap: 20px;                   
-  margin: 1cm 0;
-  width: 10px;
-  height: 150px;
-  object-fit: contain;
+ display: flex;
+ flex-direction: column;
+ align-items: left;                  
+ margin: 1cm 0;
+}
 
+.flux-img {
+    width: 100px;
+    object-fit: contain;
 }
 
 figcaption {
-    color: silver;
-    text-align: left;
+    color: red;
+    text-shadow: 4px 4px 4px gray;
+    font-style: italic;
+    margin-left: 20px;
+    max-width: 300px;
 }
 
 
