@@ -91,12 +91,11 @@ h4 + li{
 
 .flux-img {
     width: 100px;
-    object-fit: contain;
 }
 
 figcaption {
-    color: red;
-    text-shadow: 4px 4px 4px gray;
+    color: black;
+    text-shadow: 4px 4px 4px rgb(101, 8, 8);
     font-style: italic;
     margin-left: 20px;
     max-width: 300px;
