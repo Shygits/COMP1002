@@ -60,13 +60,11 @@ text-shadow: 2px 2px 4px red;
 .starring li {
   font-weight: bold;       
   margin-bottom: 0;   
-  font-size: 1.2em;        
+  font-size: 1.5em;        
   text-align: left; 
   color: #8080ff;
   list-style-type: none;
   text-shadow: 2px 2px 4px #A42821;
-
-
 }
 
 
@@ -94,7 +92,8 @@ h4 + li{
 }
 
 figcaption {
-    color: black;
+    color: darkblue;
+    font-weight: bold;
     text-shadow: 4px 4px 4px rgb(101, 8, 8);
     font-style: italic;
     margin-left: 20px;
