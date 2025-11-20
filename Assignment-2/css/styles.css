@@ -41,7 +41,7 @@ text-shadow: 2px 2px 4px red;
     text-align: right;
 }
 
-.starring {
+.cast-header {
   text-align: right;            
   list-style-type: none;   
   padding: 0;              
@@ -56,8 +56,9 @@ text-shadow: 2px 2px 4px red;
   margin-bottom: 0.5em;   
   font-size: 1.2em;        
   text-align: right; 
-  display: flex;
-  align-items: flex-start;     
+  color: #8080ff;
+  list-style-type: none;
+
 }
 
 .cast-heading{
@@ -82,11 +83,13 @@ h5{
 text-shadow: 2px 2px 4px red;
 font-size: 20px;
 color: cyan; 
+text-align: left;
 }
 
 h5 + p{
 font-size: 20px;
 font-weight: bolder;
+text-align: left;
 }
 
 h6{
@@ -101,7 +104,9 @@ font-size: 30px;
 h6 + p{
 color: #A42821;
 font-size:15px;
-font-weight: ;
+font-weight: bold;
+text-shadow: 2px 2px 2px yellow;
+
 
 }
 
@@ -130,10 +135,10 @@ figcaption {
     color: silver;
     text-align: left;
 }
+
 small{
     color: #FFD700;
     font-style: oblique;
     font-size: 20px;
     text-shadow: 2px 2px 4px blue;
-}
 }
