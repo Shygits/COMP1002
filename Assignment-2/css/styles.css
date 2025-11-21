@@ -41,7 +41,7 @@ text-shadow: 2px 2px 4px red;
 .tagline{
     font-style: oblique;
     font-size: 1.2em;
-    color: orangered;
+    color: #8080ff;
     text-align: right;
     padding: 0;
     transform: skew(-15deg);
