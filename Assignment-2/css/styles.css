@@ -13,7 +13,7 @@ h1{
 transform: skew(30deg);
 text-align: left;
 color:#FFD700;
-line-height: 2px;
+line-height: 1px;
 text-shadow: 2px 2px 4px red;
 
 }
@@ -92,7 +92,7 @@ h4 + li{
 }
 
 figcaption {
-    color: darkblue;
+    color: orangeyellow;
     font-weight: bold;
     text-shadow: 4px 4px 4px rgb(101, 8, 8);
     font-style: italic;
@@ -115,12 +115,12 @@ text-align: left;
 }
 
 a{
-color: yellow;
+color: darkblue;
 
 }
 
 h6{
-text-shadow: 2px 2px 4px #A42821;
+text-shadow: 2px 2px 4px yellow;
 text-align: center;
 color: orange;
 line-height: 2px;
