@@ -13,8 +13,9 @@ h1{
 transform: skew(30deg);
 text-align: left;
 color:#FFD700;
-line-height: 2px;
+line-height: 1px;
 text-shadow: 2px 2px 4px red;
+   font-size: 1em;
 
 }
 
@@ -40,7 +41,7 @@ text-shadow: 2px 2px 4px red;
 .tagline{
     font-style: oblique;
     font-size: 1.2em;
-    color: orangered;
+    color: yellow;
     text-align: right;
     padding: 0;
     transform: skew(-15deg);
@@ -92,7 +93,7 @@ h4 + li{
 }
 
 figcaption {
-    color: darkblue;
+    color: orangered;
     font-weight: bold;
     text-shadow: 4px 4px 4px rgb(101, 8, 8);
     font-style: italic;
@@ -115,12 +116,12 @@ text-align: left;
 }
 
 a{
-color: yellow;
+color: #8080ff;
 
 }
 
 h6{
-text-shadow: 2px 2px 4px #A42821;
+text-shadow: 2px 2px 4px yellow;
 text-align: center;
 color: orange;
 line-height: 2px;
