@@ -93,7 +93,7 @@ h4 + li{
 }
 
 figcaption {
-    color: orangered;
+    color: white;
     font-weight: bold;
     text-shadow: 4px 4px 4px rgb(101, 8, 8);
     font-style: italic;
