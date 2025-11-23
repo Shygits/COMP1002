@@ -115,8 +115,10 @@ font-weight: bolder;
 text-align: left;
 }
 
-a{
+a:hover {
+background-color: white;
 color: #8080ff;
+
 
 }
 
