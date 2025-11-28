@@ -93,7 +93,7 @@ h4 + li{
 }
 
 figcaption {
-    color: orangered;
+    color: white;
     font-weight: bold;
     text-shadow: 4px 4px 4px rgb(101, 8, 8);
     font-style: italic;
@@ -115,8 +115,10 @@ font-weight: bolder;
 text-align: left;
 }
 
-a{
+a:hover {
+background-color: white;
 color: #8080ff;
+
 
 }
 
