@@ -5,7 +5,7 @@
 
 // STEP 1a: Wait until the DOM is ready to be manipulated
 document.addEventListener("DOMContentLoaded", function(){
-//alert("Dom is ready to go!");
+alert("Dom is ready to go!");
 // STEP 2a: Grab the UL for the image gallery and assign it to the variable 'gallery'
 const gallery = document.querySelector("#imagegallery");
 //console.log(gallery);
