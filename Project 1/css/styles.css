@@ -1,0 +1,156 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+    background-image: url("../images/victorianWallpaper.jpg");/*SOURCE OF BACKGROUND IMAGE: https://cdnb.artstation.com/p/assets/images/images/049/126/133/large/ling-zhang-victorianwallpaper01.jpg?1651752394*/
+    background-repeat: repeat;
+    background-size: auto;
+    color: #2c2c2c;
+    text-align: center;
+}
+
+#container {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 85%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+}
+
+header h1, header h2, header h3 {
+    font-family: serif;
+    color: #800000; 
+    text-shadow: 2px 2px #FFD700; 
+    margin: 10px 0;
+}
+
+
+header h1 {
+    border: 3px solid #FFD700;
+    border-radius: 50px 50px 0 0;
+    padding: 15px;
+    background-color: #FDF5E6;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #47050d; 
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #FFD700;
+    color: #800000;
+}
+
+h3 {
+    font-family: serif;
+    font-size: 100px;
+    color: #002366;
+    margin-top: 25px;
+}
+
+h4 {
+    font-family: serif;
+    font-size: 40px;
+    color: #002366;
+    margin-top: 25px;
+}
+
+p {
+    line-height: 1.6;
+    margin: 30px;
+}
+
+.image img, .home-img {
+    width: 60%;
+    border: 4px dashed #FFD700;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px #800000;
+    margin-top: 15px;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+
+form {
+    margin: 20px auto;
+    width: 60%;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #800000;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #002366;
+    border-radius: 6px;
+    font-family: inherit;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #800000;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #FFD700;
+    color: #800000;
+}
+
+
+#rating-output {
+    margin-top: 15px;
+    font-size: 1.2em;
+    color: #002366;
+    font-weight: bold;
+}
+
+.legacy{
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px dotted #FFD700;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px #800000;
+    font-family: serif;
+    color: #002366;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #800000;
+}
