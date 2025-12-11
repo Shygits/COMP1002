@@ -5,7 +5,7 @@ html, body {
     background-image: url("../images/victorianWallpaper.jpg");/*SOURCE OF BACKGROUND IMAGE: https://cdnb.artstation.com/p/assets/images/images/049/126/133/large/ling-zhang-victorianwallpaper01.jpg?1651752394*/
     background-repeat: repeat;
     background-size: auto;
-    color: #2c2c2c;
+    color: #360808;
     text-align: center;
 }
 
@@ -47,7 +47,7 @@ nav li {
 nav a {
     text-decoration: none;
     font-weight: bold;
-    color: #47050d; 
+    color: #123524; 
     padding: 6px 12px;
     border-radius: 6px;
     transition: 0.3s;
@@ -60,7 +60,7 @@ nav a:hover {
 
 h3 {
     font-family: serif;
-    font-size: 100px;
+    font-size: 50px;
     color: #002366;
     margin-top: 25px;
 }
@@ -74,8 +74,11 @@ h4 {
 
 p {
     line-height: 1.6;
-    margin: 30px;
+    margin: 10px;
+    font-size: 20px;
+    font-style: bold;
 }
+
 
 .image img, .home-img {
     width: 60%;
