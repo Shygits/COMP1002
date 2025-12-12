@@ -79,6 +79,13 @@ p {
     font-style: bold;
 }
 
+.FAQs {
+line-height: 1.6;
+    margin: 10px;
+    font-size: 20px;
+    text-align: left;
+}
+
 
 .image img, .home-img {
     width: 60%;
